@@ -41,6 +41,7 @@ blockquote.weak{border-left-color:#c2543f}blockquote.good{border-left-color:#2f8
 .tablewrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:15px}
 th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.06em}
 td:nth-child(2){white-space:nowrap;font-weight:600}
+.samplehead{margin-top:44px;padding-top:20px;border-top:2px solid var(--line);font-size:22px}
 #sample ol{padding-left:22px}#sample li{margin-bottom:8px}
 .foot{padding:28px 16px;color:var(--muted);font-size:14px;text-align:center}
 @media(max-width:640px){nav a:not(.btn-sm){display:none}}
