@@ -36,6 +36,12 @@ h3{margin:28px 0 12px}
 .chips-group h3{margin:24px 0 10px;font-size:17px}.note{color:var(--muted);font-size:14px;margin:8px 0 0}
 .form{display:grid;gap:12px;max-width:560px;margin-top:20px}.form label{display:grid;gap:4px;font-size:14px;color:var(--muted)}
 input,textarea{font:inherit;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)}
+blockquote{margin:0;padding:14px 18px;border-left:4px solid var(--line);background:var(--card);border-radius:0 10px 10px 0}
+blockquote.weak{border-left-color:#c2543f}blockquote.good{border-left-color:#2f8f5b}
+.tablewrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+td:nth-child(2){white-space:nowrap;font-weight:600}
+#sample ol{padding-left:22px}#sample li{margin-bottom:8px}
 .foot{padding:28px 16px;color:var(--muted);font-size:14px;text-align:center}
 @media(max-width:640px){nav a:not(.btn-sm){display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
